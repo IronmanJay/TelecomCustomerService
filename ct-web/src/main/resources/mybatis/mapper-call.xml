@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.IronmanJay.ct.web.dao.CalllogDao" >
+
+
+    <select id="queryMonthDatas" resultType="com.IronmanJay.ct.web.bean.Calllog">
+        select * from ct_call where telid = (
+            SELECT
+                ID
+            from ct_user
+            where tel = #{tel}
+        ) and dateid in (
+            SELECT
+                ID
+            from ct_date
+            where year = #{year} and month != '' and day = ''
+        )
+    </select>
+
+</mapper>

@@ -1,0 +1,9 @@
+
+­
+java:S1845"Rename method "getValue" to prevent any misunderstanding/clash with method "getvalue" defined in interface "com.IronmanJay.ct.common.bean.Val".(¼ÿ‹‹8á¼­ë–.
+²
+java:S1845
+"Rename method "setValue" to prevent any misunderstanding/clash with method "setvalue" defined in interface "com.IronmanJay.ct.common.bean.Val".(‹Ø„øÿÿÿÿ8á¼­ë–.
+p
+java:S1104"SMake content a static final constant or non-public and provide accessors if needed.(­ÁÅ’8Â¼‡æ–.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø›ÚÎ
