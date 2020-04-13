@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ct-analysis" />
         <module name="ct-web" />
-        <module name="ct-cache" />
         <module name="ct-producer" />
         <module name="ct-common" />
         <module name="ct-consumer-coprocessor" />
         <module name="ct-consumer" />
-        <module name="ct-analysis" />
+        <module name="ct-cache" />
       </profile>
     </annotationProcessing>
   </component>
