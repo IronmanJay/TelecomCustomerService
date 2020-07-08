@@ -3,8 +3,8 @@
 ## 项目环境
 windows10、centos7(三集群，三台配置都为3G，4核)、jdk1.8、idea2019.3、maven3.3.9、hadoop2.7.2、zookeeper3.4.10、hbase1.3.1、flume1.7.0、kafka2.11-0.11.0.0
 ## 项目架构
-Flume监听生成数据
-Kafka作为消息队列
-Hbase作为消息数据存储
-MapReduce作为业务指标分析
-Web前端展示使用echart
+Flume监听生成数据  
+Kafka作为消息队列  
+Hbase作为消息数据存储  
+MapReduce作为业务指标分析  
+Web前端展示使用echart  
